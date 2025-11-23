@@ -11,7 +11,7 @@ public class BaseTest {
 
     @BeforeClass
     public void setup() {
-        RestAssured.baseURI = "https://demo-hn2f.onrender.com";
+        RestAssured.baseURI = "https://api.themoviedb.org/3/";
 
         request = RestAssured
                 .given()
